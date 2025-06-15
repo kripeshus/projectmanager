@@ -7,6 +7,20 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="p-5">
+    <ul class="nav mb-4">
+    <li class="nav-item">
+        <a class="nav-link" href="/task">Task</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/project">Project</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/time">Time Entry</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/report">Report</a>
+    </li>
+    </ul>
     <h2>Search by Project</h2>
     <select id="projectFilter" class="form-select w-50 mb-4">
         <option value="">All Projects</option>

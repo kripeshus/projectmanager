@@ -21,6 +21,20 @@
 </head>
 <body>
     <h1>Hi {{ $user->name }}</h1>
+    <ul class="nav mb-4">
+    <li class="nav-item">
+        <a class="nav-link" href="/task">Task</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/project">Project</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/time">Time Entry</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/report">Report</a>
+    </li>
+    </ul>
     <table class="table">
     <thead>
         <tr>
